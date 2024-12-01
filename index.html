@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Imc - Code + Coffe</title>
+    <link rel="stylesheet" href="Css/style.css">
+
+</head>
+
+<body>
+    <!-- Entendo Funções -->
+    <!-- <h2 id="area">Bem vindo</h2>
+   <button onclick="entrar()">Acessar</button> -->
+
+    <!-- Switch -->
+    <!-- <div id="container">
+    <ul>
+        <li>1 - Suco</li>
+        <li>2 - Coca cola</li>
+        <li>3 - Pepsi</li>
+        <li>4 - chamar o garçom</li>
+    </ul>
+    <button onclick="solicitar()">Solicitar</button> -->
+    <!-- </div> -->
+
+    <div class="Container">
+        
+        <div class="containerCenter">
+
+            <h3 class="ContainerTexto">Calculadora IMC</h3>
+            <form class="centerContainer" onsubmit="return calcular(event)">
+                <label for="peso">Digite seu peso: </label>
+                <input type="text" name="peso" id="peso" placeholder="Exemplo: 65" class="inputType" />
+
+                <label for="altura">Digite seu altura: </label>
+                <input type="text" name="altura" id="altura" placeholder="Exemplo: 1.80" class="inputType" />
+
+                <input type="submit" value="Calcular IMC" class="buttonType">
+
+            </form>
+            <p style="text-align: center; color: aliceblue; margin-top: 13%;">Code + Coffe</p>
+        </div>
+           
+        <div id="resultadoContainer" style="display: none;">
+            <div id="resultado"> </div>
+            <button id="buttonClear" class="buttonClear" onclick="limpar()">X</button>
+        </div>
+    </div>
+
+    </div>
+
+
+
+    <script src="ScriptImc.js"></script>
+</body>
+
+</html>
