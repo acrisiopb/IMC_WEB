@@ -1,4 +1,4 @@
-<h1>  Calculadora Índice de massa corporal (IMC) - Simples. </h1>
+<h1>  Calculadora - Índice de massa corporal (IMC) - Simples. </h1>
 <h6>LINK -> <a href="https://acrisiopb.github.io/wushu2021/](https://acrisiopb.github.io/IMC_WEB/">  <img align="center" width="40" style="object-fit: contain;" src="https://raw.githubusercontent.com/acrisiopb/IMC_WEB/f8415da80fb94ecd277281dc18262d95ed53fec1/342344.png"</a></h6>
 <div style="display: inline_block">
     <h6>Tecnologia - utilizadas</h6>
